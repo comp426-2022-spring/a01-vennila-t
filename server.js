@@ -18,7 +18,7 @@ fs.readFile("./www/index.html", "utf8", (err, data) => {
 // If there is an error, put it on the console error, return, and exit with error code 1.
 // Do not be nice about exiting.
 if (err) {
-    console.error
+    console.error(err)
     return
     process.exit(1)
 }
